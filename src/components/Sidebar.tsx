@@ -1,6 +1,7 @@
 import {PencilLine } from 'phosphor-react'
 
 import bitcoinCover from '../assets/bitcoincover.png'
+import { Avatar } from './Avatar'
 
 import styles from './Sidebar.module.css'
 
@@ -13,10 +14,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img 
-          className={styles.avatar}
-          src="https://avatars.githubusercontent.com/u/66549962?v=4" 
-        />
+        <Avatar src="https://github.com/LeonardoMarquesDias.png" />
 
         <strong>Leonardo Dias</strong>
         <span>Crypto Blogger</span>
