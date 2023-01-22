@@ -19,7 +19,7 @@ export function Sidebar() {
         />
 
         <strong>Leonardo Dias</strong>
-        <span>Blockchain Developer</span>
+        <span>Crypto Blogger</span>
       </div>
 
       <footer>
